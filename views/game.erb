@@ -1,0 +1,37 @@
+<div id="outcome">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Player 1</h2>
+      <div class="images">
+        <small>
+        <% if @p1 == "scissors" %>
+          <img id="rock_p1" src="../scissors.png"/>
+        <% elsif @p1 == "rock" %>
+          <img id="rock_p1" src="../fist.png"/>
+        <% elsif @p1 == "paper" %>
+          <img id="rock_p1" src="../paper.png"/>
+        <% end %>
+        </small>
+
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h1>VS</h1>
+    </div>
+    <div class="col-md-4">
+      <h2>Computer</h2>
+      <div class="images">
+        <small>
+        <% if @num == 0 %>
+          <img id="rock_p1" src="../scissors.png"/>
+        <% elsif @num == 2 %>
+          <img id="rock_p1" src="../fist.png"/>
+        <% elsif @num == 1 %>
+          <img id="rock_p1" src="../paper.png"/>
+        <% end %>
+        </small>
+      </div>
+    </div>
+  </div>
+  <h2><%= @outcome %></h2>
+</div>

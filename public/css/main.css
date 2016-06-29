@@ -1,0 +1,42 @@
+header {
+  background-image: url('../background.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+@font-face {
+    font-family: paradise;
+    src: url(../paradise.otf);
+}
+h1 {
+  font-family: paradise;
+  margin-top: 150px;
+}
+
+.container {
+  margin: auto!important;
+  display: block!important;
+  text-align: center;
+}
+
+button {
+  margin: 5%;
+  background-color: transparent!important;
+  border:none!important;
+  font-family: paradise;
+  color: black!important;
+  font-size: 35px;
+}
+
+.images {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.images img {
+  width: 100%;
+  
+}
